@@ -36,6 +36,9 @@ The link action doesn't allow to link 2 instances of the same objects. So, 2 obj
 
 The "can reach" actions pick objects that can be found going from one link to another. Without any filter, every objects of the grid would be picked and it would not be very useful. There several ways to filter which object can be traveled.
 
+!!! tip
+    Remembrer that the search will be performed among the objects which are currently [picked](gdevelop5/events/object-picking/). It allows filtering, but it is also easy to forget and only search a fragment of the graph.
+
 ### Filter with conditions
 
 Conditions can be added before the search to keep only a subset of the nodes. The match-3 example uses this to keep only the bubbles of one color and find a cluster.
