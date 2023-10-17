@@ -40,6 +40,9 @@ Link to neighbors on a rectangular grid.
 **Can reach**  
 Can reach through links.
 
+!!! tip
+    The first argument ("Pick these objects...") must contain every nodes of the graph you might go through, otherwise you will only explore a portion of the graph."
+
 **Can reach with links limited by length**  
 Can reach through a given number of links.
 
